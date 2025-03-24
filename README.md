@@ -1,4 +1,4 @@
-# Robotics & Automation Camp 2025
+# Automation & Robotics Camp 2025
 แนวทางการเขียนโปรแกรมควบคุมหุ่นยนต์ในค่ายวิศวกรรมระบบอัตโนมัติและหุ่นยนต์ Entaneer Academy
 ## Installing the IDE and Initial Setup
 ก่อนอื่นเราต้องลงโปรแกรม IDE สำหรับเขียนโค้ดก่อน โดยเราจะใช้โปรแกรม Arduino IDE น้องๆสามารถดาวน์โหลดได้ตามขั้นต่อไปตอนนี้
