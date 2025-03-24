@@ -13,4 +13,4 @@
 9. เมื่อติดตั้งเสร็จสิ้น ในหน้าต่าง Board จะปรากฏประเภทของบอร์ด ESP32 ขึ้นมาให้เลือกใช้งาน ให้เลือกไปที่ ESP32 Dev Module
 
 ## Driving the Motors
-![Alt text](https://github.com/Coachieees/ENT-CMU-Camp2025/blob/main/Maker%20Drive%20Overview.png?raw=true)
+![Alt text](https://github.com/Coachieees/ENT-CMU-Camp2025/blob/main/Images/Maker%20Drive%20Overview.png?raw=true)
