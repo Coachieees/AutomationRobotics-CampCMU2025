@@ -13,4 +13,5 @@
 9. เมื่อติดตั้งเสร็จสิ้น ในหน้าต่าง Board จะปรากฏประเภทของบอร์ด ESP32 ขึ้นมาให้เลือกใช้งาน ให้เลือกไปที่ ESP32 Dev Module
 
 ## Driving the Motors
+1.เชื่อมต่อมอเตอร์และแบตเตอรี่เข้ากับบอร์ด Maker Drive ดังรูป
 ![Alt text](https://github.com/Coachieees/ENT-CMU-Camp2025/blob/main/Images/Maker%20Drive%20Overview.png?raw=true)
