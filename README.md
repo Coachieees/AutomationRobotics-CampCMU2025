@@ -9,7 +9,7 @@
 5. ทำการติดตั้ง Boards Manager ของบอร์ด ESP32 โดยกดไปที่ File -> Preferences
 6. ที่ช่อง Additional Boards Manager URLs ให้ใส่ลิ้งค์นี้ลงไป https://dl.espressif.com/dl/package_esp32_index.json แล้วกด OK
 7. คลิกไปที่เมนู Tools -> Board -> Board Manager
-8. พิมพ์คำว่า ESP32 ลงในช่องค้นหาด้านบน แล้วกด Install
+8. พิมพ์คำว่า esp32 ลงในช่องค้นหาด้านบนจะเจอ esp32 by Espressif Systems จากน้้นกด Install
 9. เมื่อติดตั้งเสร็จสิ้น ในหน้าต่าง Board จะปรากฏประเภทของบอร์ด ESP32 ขึ้นมาให้เลือกใช้งาน ให้เลือกไปที่ ESP32 Dev Module
 10. เชื่อมต่อบอร์ด ESP32 เข้ากับคอมพิวเตอร์จะมี Port ใหม่ (COM...) เด้งมาที่ช่อง Unknown ให้กดคลิกที่ Port นั้น
 11. จากนั้นจะขึ้นหน้าต่าง Select Other Board and Port ให้กดเลือกชนิด Boards เป็น ESP32 Dev Module
