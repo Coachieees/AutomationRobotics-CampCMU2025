@@ -11,7 +11,13 @@
 7. คลิกไปที่เมนู Tools -> Board -> Board Manager
 8. พิมพ์คำว่า ESP32 ลงในช่องค้นหาด้านบน แล้วกด Install
 9. เมื่อติดตั้งเสร็จสิ้น ในหน้าต่าง Board จะปรากฏประเภทของบอร์ด ESP32 ขึ้นมาให้เลือกใช้งาน ให้เลือกไปที่ ESP32 Dev Module
+10. เชื่อมต่อบอร์ด ESP32 เข้ากับคอมพิวเตอร์จะมี Port ใหม่ (COM...) เด้งมาที่ช่อง Unknown ให้กดคลิกที่ Port นั้น
+11. จากนั้นจะขึ้นหน้าต่าง Select Other Board and Port ให้กดเลือกชนิด Boards เป็น ESP32 Dev Module
+12. การเชื่อมต่อเป็นอันเสร็จสิ้น ให้น้องๆลองอัพโค้ดแล้ว Run เล่นๆได้เลย
 
 ## Driving the Motors
-1.เชื่อมต่อมอเตอร์และแบตเตอรี่เข้ากับบอร์ด Maker Drive ดังรูป
-![Alt text](https://github.com/Coachieees/ENT-CMU-Camp2025/blob/main/Images/Maker%20Drive%20Overview.png?raw=true)
+1. เชื่อมต่อมอเตอร์และแบตเตอรี่เข้ากับบอร์ด Maker Drive ดังรูป (ยังไม่ต้องต่อ Maker Drive กับบอร์ด ESP32)
+![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/MotorDriveDiagram.png?raw=true)
+2. เปิดสวิตช์ที่แบตเตอรี่เพื่อจ่ายไฟให้กับมอเตอร์แล้วลองกดปุ่มทดสอบมอเตอร์ (Motor Test Button) บนบอร์ด Maker Drive
+3. ถ้ามอเตอร์ทำงานได้แล้ว ให้ปิดแหล่งจ่ายไฟแล้วเชื่อมต่อบอร์ด Maker Drive เข้ากับ ESP32 ดังรูปต่อได้เลย
+4. เมื่อต่อเสร็จแล้วให้เข้าโหลดโค้ดไฟล์ชื่อ DrivingMotors.ino แล้วกดเปิดโค้ดนี้ลงใน Arduino IDE
