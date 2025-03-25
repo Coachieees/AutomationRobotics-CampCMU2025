@@ -15,7 +15,7 @@
    - ไปที่ Sketch -> Include Library -> Manage Libraries...
    - พิมพ์ค้นหาว่า Cytron Motor Drivers Library แล้วกด Install
    - ปิดโปรแกรมแล้วเปิดใหม่
-3. เข้าไปใน Github แล้วโหลดไฟล์โค้ดชื่อ DrivingMotors.ino แล้วกดเปิดโค้ดนี้ในโปรแกรม Arduino IDE
+3. เข้าไปใน Github แล้วโหลดไฟล์โค้ดชื่อ [DrivingMotors.ino](./DrivingMotors.ino) แล้วกดเปิดโค้ดนี้ในโปรแกรม Arduino IDE
 4. เสียบสายอัพโหลดโปรแกรมแล้วเลือก Port เชื่อมต่อ
 5. กดปุ่มอัพโหลดโปรแกรมลงในบอร์ด ESP32
 6. เมื่ออัพโหลดเสร็จ ให้กดเปิดสวิตช์แบตเตอรี่
