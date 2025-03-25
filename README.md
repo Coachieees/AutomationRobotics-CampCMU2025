@@ -20,4 +20,8 @@
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/MotorDriveDiagram.png?raw=true)
 2. เปิดสวิตช์ที่แบตเตอรี่เพื่อจ่ายไฟให้กับมอเตอร์แล้วลองกดปุ่มทดสอบมอเตอร์ (Motor Test Button) บนบอร์ด Maker Drive
 3. ถ้ามอเตอร์ทำงานได้แล้ว ให้ปิดแหล่งจ่ายไฟแล้วเชื่อมต่อบอร์ด Maker Drive เข้ากับ ESP32 ดังรูปต่อได้เลย
-4. เมื่อต่อเสร็จแล้วให้เข้าโหลดโค้ดไฟล์ชื่อ DrivingMotors.ino แล้วกดเปิดโค้ดนี้ลงใน Arduino IDE
+4. เมื่อต่อเสร็จแล้วให้เข้าไปในโปรแกรม Arduino IDE จากนั้นกดลง Libary ดังนี้ Sketch -> Include Library -> Manage Libraries...
+5. จากนั้นพิมพ์ค้นหาว่า Cytron Motor Drivers Library แล้วกด Install จากนั้นปิดโปรแกรมแล้วเปิดใหม่
+6. เข้าไปใน Github แล้วโหลดไฟล์โค้ดชื่อ DrivingMotors.ino แล้วกดเปิดโค้ดนี้ใน Arduino IDE
+7. อัพโหลดโปรแกรมลงในบอร์ด ESP32 จากนั้นกดเปิดสวิตช์แบตเตอรี่
+8. มอเตอร์จะหมุนด้วยความเร็วสูงสุด 1 วินาทีแล้วจะลดความเร็วเหลือครึ่งหนึ่งเป็นเวลา 1 วินาทีแล้วจะหยุดหมุนเป็นเวลา 1 วินาที จากนั้นจะหมุนสลับด้านแบบนี้ไปเรื่อย ๆ
