@@ -1,4 +1,4 @@
-# 3.Light Detection
+# 3. Light Detection
 ในหัวข้อนี้จะพูดถึงการใช้งานโมดูลเซนเซอร์ตรวจจับแสง (Light Sensor Module) ซึ่งมีลักษณะดังรูป
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LightSensor.png?raw=true)
 
