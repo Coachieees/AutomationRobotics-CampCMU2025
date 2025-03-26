@@ -62,7 +62,7 @@ void loop() {
 - เซนเซอร์ตัวไหนอ่านเจอสีดำจะแสดงค่าสถานะเป็น 1
 - เซนเซอร์ตัวไหนอ่านเจอสีขาวจะแสดงค่าสถานะเป็น 0
 
-## การประยุกต์โปรแกรม
+## การประยุกต์ใช้งานเซนเซอร์ (The application of sensors)
 เราจะนำโปรแกรมที่เขียนมาด้านบนไปประยุกต์รวมกับมอเตอร์เพื่อให้หุ่นยนต์สามารถเดินตามเส้นได้โดยต่อวงจรได้ดังรูปและมีตัวอย่างโปรแกรมดังข้างล่าง
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/IntLineFollowDiagram.png?raw=true)
 ```cpp
@@ -85,9 +85,6 @@ pinMode(LINE_D2, INPUT);
 pinMode(LINE_D3, INPUT);
 pinMode(LINE_D4, INPUT);
 pinMode(LINE_D5, INPUT);
-pinMode(2,INPUT_PULLUP);   //Define Pin 2 (connected to the on-board pushbutton) as input
-while(digitalRead(2)==HIGH); 
-while(digitalRead(2)==LOW); //wait for user to press the on-board pushbutton
 }
   
 void loop() {
@@ -97,6 +94,7 @@ void loop() {
   int D3 = digitalRead(LINE_D3);
   int D4 = digitalRead(LINE_D4);
   int D5 = digitalRead(LINE_D5);
+
   if (D1==0 && D2==0 && D3==1 && D4==0 && D5==0) {
     motorL.setSpeed(100);   
     motorR.setSpeed(100);    //robot move forward
