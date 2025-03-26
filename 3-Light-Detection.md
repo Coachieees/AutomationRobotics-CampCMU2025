@@ -20,3 +20,35 @@
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LightDetectDiagram.png?raw=true)
 - ต้องการสัญญาณขาออกแบบ Analog -> ใช้ Pin D4
 - ต้องการสัญญาณขาออกแบบ Digital -> ใช้ Pin D2
+
+## การเขียนโปรแกรม (Programming)
+- สำหรับสัญญาณขาออกแบบ Analog เขียนโค้ดได้ตามนี้
+  ```c
+  #define LDR_PIN   4
+
+  void setup() {
+  Serial.begin(9600);
+  pinMode(LDR_PIN, INPUT);
+  }
+  void loop() {
+  int value = analogRead(LDR_PIN);
+  Serial.println(value);
+  delay(100);
+  }
+  
+  ```
+- สำหรับสัญญาณขาออกแบบ Digital เขียนโค้ดได้ตามนี้
+    ```c
+  #define LDR_PIN   2
+
+  void setup() {
+  Serial.begin(9600);
+  pinMode(LDR_PIN, INPUT);
+  }
+  void loop() {
+  int value = DigitalRead(LDR_PIN);
+  Serial.println(value);
+  delay(100);
+  }
+  
+  ```
