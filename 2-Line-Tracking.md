@@ -12,19 +12,49 @@
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LineFollowPrinc.png?raw=true)
 
 ## การเชื่อมต่อสายไฟ (Wiring)
+เชื่อมต่อสายไฟระหว่างบอร์ด Maker Line กับ ESP32 ตามรูป
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LineFollowDiagram.png?raw=true)
 
-## การเขียนโปรแกรม
+## การสอบเทียบเซนเซอร์ (Sensor Calibration)
+1. เสียบสายสัญญาณเข้ากับบอร์ด ESP32 เพื่อจ่ายไฟให้เซนเซอร์
+2. นำเซนเซอร์ไปวางบนพื้นสนาม โดยให้เซนเซอร์ยกลอยจากพื้นเล็กน้อย
+3. กดปุ่ม Calibrate ที่ข้างบอร์ดค้างไว้ ไฟจะค่อยๆติดทีละดวงจนครบ แล้วทั้งหมดจะกระพริบ
+4. เมื่อไฟกระพริบให้กวาดเซนเซอร์ทั้ง 5 ผ่านเส้นสีดำบนสนาม โดยกวาดไปกลับจำนวน 2-3 รอบ
+5. เมื่อเสร็จแล้วให้กดปุ่ม Calibrate หนึ่งครั้งเป็นอันเสร็จสิ้น สังเกตได้จากเซนเซอร์ที่ตรวจจับเส้นสีดำได้ ไฟสีแดงบนเซนเซอร์จะติด
+
+## การเขียนโปรแกรม (Programming)
 ```cpp
+
+// Maker Line Sensor Pin Connection
+#define LINE_D1   34
+#define LINE_D2   35
+#define LINE_D3   32
+#define LINE_D4   33
+#define LINE_D5   25
+
 void setup() {
-    pinMode(13, OUTPUT);
-}
+  Serial.begin(9600);
+  pinMode(LINE_D1, INPUT);
+  pinMode(LINE_D2, INPUT);
+  pinMode(LINE_D3, INPUT);
+  pinMode(LINE_D4, INPUT);
+  pinMode(LINE_D5, INPUT);
+  }
 
 void loop() {
-    digitalWrite(13, HIGH);
-    delay(1000);
-    digitalWrite(13, LOW);
-    delay(1000);
+    //Reading Sensor Value
+    int D1 = digitalRead(LINE_D1);
+    int D2 = digitalRead(LINE_D2);
+    int D3 = digitalRead(LINE_D3);
+    int D4 = digitalRead(LINE_D4);
+    int D5 = digitalRead(LINE_D5);
+
+    //Display Sensor Status (0=White, 1=Black)
+    Serial.print(D1);Serial.print(" , ");
+    Serial.print(D2);Serial.print(" , ");
+    Serial.print(D3);Serial.print(" , ");
+    Serial.print(D4);Serial.print(" , ");
+    Serial.println(D5);
 }
 ```
 ## การประยุกต์โปรแกรม
