@@ -12,7 +12,7 @@
 ![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LineFollowPrinc.png?raw=true)
 
 ## การเชื่อมต่อสายไฟ (Wiring)
-![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/MotorDriveDiagram.png?raw=true)
+![Alt text](https://github.com/Coachieees/AutomationRobotics-CampCMU2025/blob/main/Images/LineFollowDiagram.png?raw=true)
 
 ## การเขียนโปรแกรม
 ```cpp
