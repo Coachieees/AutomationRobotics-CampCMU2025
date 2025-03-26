@@ -17,11 +17,17 @@
    - ปิดโปรแกรมแล้วเปิดใหม่
 3. เขียนโค้ดตามด้านล่างนี้ลงในโปรแกรม Arduino IDE
 ```cpp
- #include "CytronMotorDriver.h"
+#include "CytronMotorDriver.h"
+
+// Define Pin.
+#define M1A_Pin 27
+#define M1B_Pin 14
+#define M2A_Pin 12
+#define M2B_Pin 13
 
 // Configure the motor driver.
-CytronMD motor1(PWM_PWM, 27, 14);   // PWM 1A = Pin 27, PWM 1B = Pin 14.
-CytronMD motor2(PWM_PWM, 12, 13); // PWM 2A = Pin 12, PWM 2B = Pin 13.
+CytronMD motor1(PWM_PWM, M1A_Pin, M1B_Pin);
+CytronMD motor2(PWM_PWM, M2A_Pin, M2B_Pin);
 
 // The setup routine runs once when you press reset.
 void setup() {
