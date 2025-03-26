@@ -6,7 +6,9 @@
 2. สมัครลงทะเบียนใช้งานด้วยอีเมลของน้อง ๆ ให้เรียบร้อย
 3. ทำตามคลิปวีดีโอนี้เลย
 
-[คลิปสอนใช้งาน ESP32 กับ Blynk เพื่อใช้ควบคุมมอเตอร์หุ่นยนต์](https://youtu.be/UuXUyDP2-Ok)
+[![คลิปสอนใช้งาน ESP32 กับ Blynk เพื่อใช้ควบคุมมอเตอร์หุ่นยนต์](https://img.youtube.com/vi/UuXUyDP2-Ok/maxresdefault.jpg)](https://youtu.be/UuXUyDP2-Ok)
+
+### [Watch this video on YouTube](https://youtu.be/UuXUyDP2-Ok)
 
 ## โปรแกรมทดสอบ Blynk (Blynk Testing Program)
 ```c
