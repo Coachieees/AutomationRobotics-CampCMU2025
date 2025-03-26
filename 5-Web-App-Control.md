@@ -5,7 +5,7 @@
 1. เข้าไปในเว็ปไซต์ [Blynk](https://blynk.io/)
 2. สมัครลงทะเบียนใช้งานด้วยอีเมลของน้อง ๆ ให้เรียบร้อย
 3. ทำตามคลิปวีดีโอนี้เลย
-
+***แนะนำให้ใช้ Hotspot Wifi จากโทรศัพท์ในการเชื่อมต่อกับคอมพิวเตอร์และมือถือ
 [![คลิปสอนใช้งาน ESP32 กับ Blynk เพื่อใช้ควบคุมมอเตอร์หุ่นยนต์](https://img.youtube.com/vi/UuXUyDP2-Ok/maxresdefault.jpg)](https://youtu.be/UuXUyDP2-Ok)
 
 ### [Watch this video on YouTube](https://youtu.be/UuXUyDP2-Ok)
