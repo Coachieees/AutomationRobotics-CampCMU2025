@@ -24,3 +24,4 @@
 - การใช้งานเซนเซอร์ตรวจจับเส้น (Line Sensor) ดูได้ที่ [2.Line Tracking](./2-Line-Tracking.md)
 - การใช้งานเซนเซอร์ตรวจจับความเข้มแสง (Light Sensor) ดูได้ที่ [3.Light Detection](./3-Light-Detection.md)
 - การใช้งานเซนเซอร์วัดระยะทาง (Ultrasonic Sensor) ดูได้ที่ [4.Distance Measurement](./4-Distance-Measurement.md)
+- การควบคุมหุ่นยนต์ผ่าน Wifi ด้วย Web/App (Web/App Control) ดูได้ที่ [5.Web/App Control](./5-Web-App-Control.md)
