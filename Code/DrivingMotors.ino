@@ -1,9 +1,14 @@
- #include "CytronMotorDriver.h"
+#include "CytronMotorDriver.h"
 
+// Define Pin.
+#define M1A_Pin 27
+#define M1B_Pin 14
+#define M2A_Pin 12
+#define M2B_Pin 13
 
 // Configure the motor driver.
-CytronMD motor1(PWM_PWM, 32, 33);   // PWM 1A = Pin 32, PWM 1B = Pin 33.
-CytronMD motor2(PWM_PWM, 25, 26); // PWM 2A = Pin 25, PWM 2B = Pin 26.
+CytronMD motor1(PWM_PWM, M1A_Pin, M1B_Pin);
+CytronMD motor2(PWM_PWM, M2A_Pin, M2B_Pin);
 
 
 // The setup routine runs once when you press reset.
