@@ -46,7 +46,7 @@
   pinMode(LDR_PIN, INPUT);
   }
   void loop() {
-  int value = DigitalRead(LDR_PIN);
+  int value = digitalRead(LDR_PIN);
   Serial.println(value);
   delay(100);
   }
