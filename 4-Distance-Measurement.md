@@ -1,4 +1,4 @@
-# 4.Distance Measurement
+# 4. Distance Measurement
 ในหัวข้อนี้จะกล่าวถึงการวัดระยะทางด้วยการใช้ Ultrasonic Sensor
 
 ## หลักการทำงาน (Working Principle)
